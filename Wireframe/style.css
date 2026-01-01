@@ -32,6 +32,11 @@ body {
   font: var(--font);
   margin-bottom: 9rem;
 }
+
+h1{
+  text-align: center;
+}
+
 a {
   padding: var(--space);
   border: var(--line);
