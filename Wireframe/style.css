@@ -33,7 +33,13 @@ body {
   margin-bottom: 9rem;
 }
 
+
+header{
+  margin-bottom: 5rem;
+}
+
 h1{
+  margin-bottom: 5rem;
   text-align: center;
 }
 
@@ -44,6 +50,7 @@ a {
 }
 img,
 svg {
+  max-height: 20rem;
   width: 100%;
   object-fit: cover;
 }
