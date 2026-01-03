@@ -12,50 +12,69 @@
       <h1>Product Pick</h1>
     </header>
     <main>
-      
       <form>
         <section>
           <h2>Customer's details:</h2>
-       <!--create an input field to collect the customer's name,input must be at least 2 letters long,it needs to be text -->
-       <label for="customer-name">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-       <input name="customer-name" type="text" minlength="2" id="customer-name"><br><br>
-       <label  for="customer-surname">Surname&nbsp;&nbsp;</label>
-       <input name="customer-surname" type="text" minlength="2" id="customer-surname"><br><br>
-       <!--create an input field to collect the customer's email,input must be type email -->
-       <label for="customer-email">E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-       <input name="customer-email" type="email" id="customer-email">
-       </section>
-       <h2>Pick Your T-shirt:</h2>
-       <label for="tshirt-color"><strong>T-shirt Color:</strong> </label>
-       <select name="tshirt-color" id="tshirt-color">
-        <option value=""></option>
-        <option value="yellow">Yellow</option>
-        <option value="green" >Green</option>
-        <option value="burgundy" >Burgundy</option><br><br>
-        
 
-       </select>
-       <p><strong>T-shirt Size:</strong></p>
-       <input name="tshirt-size" type="radio" id="xs" value="xs">
-       <label for="xs">XS</label>
-       <input name="tshirt-size" type="radio" id="s" value="s">
-       <label for="s">S</label>
-       <input name="tshirt-size" type="radio" id="m" value="m">
-       <label for="m">M</label>
-        <input name="tshirt-size" type="radio" id="l" value="l">
-       <label for="L">L</label>
- <input name="tshirt-size" type="radio" id="xl" value="xl">
-       <label for="xl">XL</label>
-        <input name="tshirt-size" type="radio" id="xxl" value="xxl">
-       <label for="xxl">XXL</label>
-       <section>
+          <label for="customer-name"
+            >Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+          >
+          <input
+            name="customer-name"
+            type="text"
+            minlength="2"
+            id="customer-name"
+            required
+          /><br /><br />
+          <label for="customer-surname">Surname&nbsp;&nbsp;</label>
+          <input
+            name="customer-surname"
+            type="text"
+            minlength="2"
+            id="customer-surname"
+            required
+          /><br /><br />
 
-       </section>
+          <label for="customer-email"
+            >E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+          >
+          <input
+            name="customer-email"
+            type="email"
+            id="customer-email"
+            required
+          />
+        </section>
+        <section>
+          <h2>Pick Your T-shirt:</h2>
+          <label for="tshirt-color"><strong>T-shirt Color:</strong> </label>
+          <select name="tshirt-color" id="tshirt-color" required>
+            <option value=""></option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="burgundy">Burgundy</option>
+            <br /><br />
+          </select>
+          <p><strong>T-shirt Size:</strong></p>
+          <input name="tshirt-size" type="radio" id="xs" value="xs" required />
+          <label for="xs">XS</label>
+          <input name="tshirt-size" type="radio" id="s" value="s" />
+          <label for="s">S</label>
+          <input name="tshirt-size" type="radio" id="m" value="m" />
+          <label for="m">M</label>
+          <input name="tshirt-size" type="radio" id="l" value="l" />
+          <label for="L">L</label>
+          <input name="tshirt-size" type="radio" id="xl" value="xl" />
+          <label for="xl">XL</label>
+          <input name="tshirt-size" type="radio" id="xxl" value="xxl" />
+          <label for="xxl">XXL</label>
+        </section>
+        <br /><br />
+        <input type="submit" value="Place Order" />
       </form>
     </main>
     <footer>
-      
-      <h2>By Alexandru Pocovnicu</h2>
+      <h3>By Alexandru Pocovnicu</h3>
     </footer>
   </body>
 </html>
