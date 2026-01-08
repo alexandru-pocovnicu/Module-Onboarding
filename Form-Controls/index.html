@@ -13,8 +13,8 @@
     </header>
     <main>
       <form>
-        <section>
-          <h2>Customer's details:</h2>
+        <fieldset>
+          <legend>Customer's details:</legend>
 
           <label for="customer-name"
             >Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
@@ -44,9 +44,9 @@
             id="customer-email"
             required
           />
-        </section>
-        <section>
-          <h2>Pick Your T-shirt:</h2>
+        </fieldset>
+        <fieldset>
+          <legend>Pick Your T-shirt:</legend>
           <label for="tshirt-color"><strong>T-shirt Color:</strong> </label>
           <select name="tshirt-color" id="tshirt-color" required>
             <option value="">Color</option>
@@ -68,7 +68,7 @@
           <label for="xl">XL</label>
           <input name="tshirt-size" type="radio" id="xxl" value="xxl" />
           <label for="xxl">XXL</label>
-        </section>
+        </fieldset>
         <br /><br />
         <input type="submit" value="Place Order" />
       </form>
