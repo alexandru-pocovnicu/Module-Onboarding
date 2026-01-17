@@ -27,7 +27,7 @@ As well as useful links to learn more */
 /* ====== Base Elements ======
  General rules for basic HTML elements in any context */
 body {
-  background-color: rgb(235, 219, 194);
+ 
   color: var(--ink);
   font: var(--font);
   margin-bottom: 9rem;
@@ -43,7 +43,7 @@ h1 {
 }
 
 a {
-  background-color: #4A90E2;
+  background-color: #000004;
   color: white;
   padding: var(--space);
   border: none;
